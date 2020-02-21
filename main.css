@@ -1,0 +1,65 @@
+.navbar-brand{
+    float: left;
+}
+.Row{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.ContentHeader{
+    background: linear-gradient(-45deg, #ee7752, #e6e600, #e73c7e, #990099, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding: 100px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+    }
+}
+body {
+    font-family: 'Days One';font-size: 22px;
+}
+.creature{
+    width: auto;
+    height: 200px;
+    position: relative;  
+} 
+.my-container3{
+    border: 1px solid black;
+    border-radius: rounded;
+    margin-top: 50px;
+  }
+.my-col1{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.my-col4{
+    margin-bottom: 75px;
+    margin-left: 150px;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border .2s ease-in-out;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+strong{
+    text-align: center;
+}
